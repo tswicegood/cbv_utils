@@ -1,6 +1,6 @@
 {
-  "name": "inlineformscbv",
-  "description": "Class Based Views for inline formsets in Django",
+  "name": "cbv_utils",
+  "description": "Class Based Views test bed for Django",
   "author": "Travis Swicegood",
   "author_email": "travis@domain51.com",
   "install_requires": [
