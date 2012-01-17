@@ -1,0 +1,9 @@
+{
+  "name": "{{ package }}",
+  "description": "{{ description }}",
+  "author": "YOUR NAME HERE",
+  "author_email": "YOUR EMAIL HERE",
+  "classifiers": [
+  ],
+  "url": "YOUR URL HERE"
+}
