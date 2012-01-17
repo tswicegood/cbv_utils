@@ -1,9 +1,12 @@
 {
-  "name": "{{ package }}",
-  "description": "{{ description }}",
-  "author": "YOUR NAME HERE",
-  "author_email": "YOUR EMAIL HERE",
+  "name": "inlineformscbv",
+  "description": "Class Based Views for inline formsets in Django",
+  "author": "Travis Swicegood",
+  "author_email": "travis@domain51.com",
   "classifiers": [
+    "Framework :: Django",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
   ],
   "url": "YOUR URL HERE"
 }
