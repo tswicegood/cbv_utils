@@ -96,7 +96,7 @@ class ProcessInlineFormsetView(ProcessFormView):
             obj = form.save(commit=False)
             inline_formset = self.get_inline_formset()
             if inline_formset.is_valid():
-                form.save()
+                obj.save()
                 inline_formset.save()
                 return self.form_valid(form, inline_formset)
         return self.form_invalid(form=form, inline_formset=inline_formset)
