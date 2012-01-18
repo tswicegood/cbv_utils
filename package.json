@@ -9,7 +9,7 @@
   "classifiers": [
     "Framework :: Django",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: Apache Software License",
+    "License :: OSI Approved :: Apache Software License"
   ],
   "url": "YOUR URL HERE"
 }
