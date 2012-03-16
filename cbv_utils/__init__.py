@@ -27,8 +27,8 @@
 # [1]: http://semver.org
 
 major = "0"
-minor = "1"
-third = "0"
+minor = "2"
+third = "0alpha"
 extra = "0"
 
 # You should not need to edit anything beyond this point.
