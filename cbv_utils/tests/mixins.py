@@ -77,3 +77,10 @@ class context_mixin_factoryTestCase(TestCase):
 
         view = MyView()
         self.assertTrue("baz" in view.get_context_data(baz=123))
+
+    def test_does_not_swallow_typeerrors_from_inside_callback(self):
+        def my_callback():
+            raise TypeError
+
+        view = context_mixin_factory(callback=my_callback)()
+        self.assertRaises(TypeError, view.get_context_data)

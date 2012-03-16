@@ -50,8 +50,8 @@ def context_mixin_factory(context=None, callback=None):
             except AttributeError:
                 c = {}
             c.update(context)
+            callback_result = callback()
             try:
-                callback_result = callback()
                 c.update(callback_result)
             except TypeError:
                 c.update({callback.__name__: callback_result})
