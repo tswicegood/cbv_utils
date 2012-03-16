@@ -34,7 +34,7 @@ extra = "0"
 # You should not need to edit anything beyond this point.
 __version_parts__ = (major, minor, third)
 
-if not third.isdigit() or extra is not 0:
+if not third.isdigit() or extra != "0":
     __version_parts__ += (extra, )
 __version__ = ".".join(__version_parts__)
 
