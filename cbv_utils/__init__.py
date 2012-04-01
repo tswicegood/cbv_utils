@@ -28,7 +28,7 @@
 
 major = "0"
 minor = "1"
-third = "1"
+third = "2"
 extra = "0"
 
 # You should not need to edit anything beyond this point.
